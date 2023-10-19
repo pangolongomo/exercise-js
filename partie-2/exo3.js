@@ -1,6 +1,11 @@
-function findLargest(arr) {
-  arr = arr.sort((a, b) => a - b);
-  console.log(arr[arr.length - 1]);
-}
+const misteryNumber = 5;
+const myNumber = 6;
 
-findLargest([1, 13, 5, 4]);
+const answer =
+  misteryNumber === myNumber
+    ? "Congratulations !"
+    : misteryNumber > myNumber
+    ? "+"
+    : "-";
+
+console.log(answer);
