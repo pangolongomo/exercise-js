@@ -2,11 +2,10 @@ function findTriangleType(sides) {
   let count = 0;
   while (true) {
     const len = sides.length;
-    console.log(len);
+
     if (len === 0) break;
     for (let i = 0; i < len; i++) {
       if (sides[0] === sides[i] && i !== 0) {
-        console.log(sides[0], sides[i]);
         count++;
       }
     }
@@ -22,4 +21,4 @@ function findTriangleType(sides) {
   }
 }
 
-console.log(findTriangleType([12, 12, 12]));
+console.log(findTriangleType([12, 17, 18]));
