@@ -1,7 +1,5 @@
 function minutesToSeconds(minutes) {
-  return minutes * 60;
+  console.log(minutes * 60);
 }
 
-const seconds = minutesToSeconds(50);
-
-console.log(seconds);
+minutesToSeconds(50);

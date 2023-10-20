@@ -11,8 +11,6 @@ function numberOfVowels(str) {
       count++;
     }
   }
-  return count;
+  console.log(count);
 }
-const vowels = numberOfVowels("ghislain");
-
-console.log(vowels);
+numberOfVowels("ghislain");
