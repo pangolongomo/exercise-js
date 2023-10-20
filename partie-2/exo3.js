@@ -1,5 +1,5 @@
 const misteryNumber = 5;
-const myNumber = 6;
+const myNumber = 5;
 
 const answer =
   misteryNumber === myNumber
