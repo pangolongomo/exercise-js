@@ -2,4 +2,5 @@ function toCase(str) {
   return str.toLowerCase() + "-" + str.toUpperCase();
 }
 
-toCase("Mthatha");
+const combinedText = toCase("Mthatha");
+console.log(combinedText);

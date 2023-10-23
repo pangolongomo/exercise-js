@@ -3,5 +3,5 @@ function double(name) {
 }
 
 let x = double("Roy");
-
+console.log(x);
 // Roy and Roy

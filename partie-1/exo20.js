@@ -3,4 +3,5 @@ function firstChar(str) {
   return str[0] ? str[0] : "";
 }
 
-firstChar(" Rosa Parks ");
+const firstCharacter = firstChar(" Rosa Parks ");
+console.log(firstCharacter);

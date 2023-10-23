@@ -8,4 +8,6 @@ function treeParameters() {
     : "C'est une grande phrase";
 }
 
-treeParameters("a", "b", "c");
+const tree = treeParameters("a", "b", "c");
+
+console.log(tree);

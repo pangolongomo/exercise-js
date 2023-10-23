@@ -3,4 +3,6 @@ function checkLeapYear(year) {
     ? "leap year"
     : "not a leap year";
 }
-console.log(checkLeapYear(1900));
+const checkYeartype =checkLeapYear(1900);
+
+console.log(checkYeartype);

@@ -22,4 +22,6 @@ function evalNumbers(num1, num2, operation) {
   console.log(result);
 }
 
-evalNumbers(11, 10, "modulus");
+const calculate = evalNumbers(11, 10, "modulus");
+
+console.log(calculate);

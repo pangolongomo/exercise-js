@@ -3,5 +3,5 @@ function whereIs(name) {
 }
 
 let x = whereIs("Jacky");
-
+console.log(x);
 // x vaut  "Where is Jacky?"

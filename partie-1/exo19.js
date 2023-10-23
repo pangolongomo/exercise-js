@@ -7,4 +7,4 @@ function shortcut() {
   return acronym;
 }
 
-shortcut("Amnesty", "International");
+const acronym = shortcut("Amnesty", "International");

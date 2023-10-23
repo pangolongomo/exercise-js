@@ -3,4 +3,6 @@ function findLargest(arr) {
   console.log(arr[arr.length - 1]);
 }
 
-findLargest([1, 13, 5, 4]);
+const largest = findLargest([1, 13, 5, 4]);
+
+console.log(largest);

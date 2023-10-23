@@ -3,3 +3,5 @@ function reply(phrase) {
 }
 
 let x = reply("How do you do?");
+
+console.log(reply);

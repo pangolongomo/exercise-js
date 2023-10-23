@@ -3,3 +3,5 @@ const greet = () => {
 };
 
 const salutation = greet();
+
+console.log(salutation);

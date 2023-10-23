@@ -1,6 +1,7 @@
 function indexOfIgnoreCase(text, str) {
-  return text.toLowerCase().indexOf(str.toLowerCase());
+  const index = text.toLowerCase().indexOf(str.toLowerCase());
+  console.log(index);
 }
 
-console.log(indexOfIgnoreCase("bit", "it"));
-console.log(indexOfIgnoreCase("bit", "IT"));
+indexOfIgnoreCase("bit", "it");
+indexOfIgnoreCase("bit", "IT");

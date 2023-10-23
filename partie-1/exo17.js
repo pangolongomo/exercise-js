@@ -2,4 +2,6 @@ const length = (text) => {
   return text.length;
 };
 
-length("sun");
+const len = length("sun");
+
+console.log(len);

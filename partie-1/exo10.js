@@ -2,5 +2,5 @@ function echo(x) {
   return x;
 }
 
-echo("Greta");
-echo("CO2");
+console.log(echo("Greta"));
+console.log(echo("CO2"));
